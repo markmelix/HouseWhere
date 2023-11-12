@@ -1,0 +1,4 @@
+/cache/
+*.rpyc
+*.rpymc
+/saves/persistent
