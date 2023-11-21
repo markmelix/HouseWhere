@@ -376,7 +376,8 @@ define gui.nvl_list_length = 6
 
 ## Высота доступных строчек в режиме NVL. Установите на None, чтобы строчки
 ## динамически регулировали свою высоту.
-define gui.nvl_height = 173
+# define gui.nvl_height = 173
+define gui.nvl_height = None
 
 ## Интервал между строчками в режиме NVL, если gui.nvl_height имеет значение
 ## None, а также между строчками и меню режима NVL.
@@ -435,7 +436,8 @@ init python:
     def small():
 
         ## Размеры шрифтов.
-        gui.text_size = 45
+        # gui.text_size = 45
+        gui.text_size = 35
         gui.name_text_size = 54
         gui.notify_text_size = 38
         gui.interface_text_size = 45
@@ -467,7 +469,8 @@ init python:
         gui.file_slot_rows = 2
 
         ## Режим NVL.
-        gui.nvl_height = 255
+        # gui.nvl_height = 255
+        gui.nvl_height = None
 
         gui.nvl_name_width = 458
         gui.nvl_name_xpos = 488
