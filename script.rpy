@@ -14,12 +14,12 @@ image vasya = "vasya.png"
 define Me = Character("Я", color="#9F2B68")
 define Alexey = Character("Лёха", color="#301934")
 define Vitaly = Character("Ёж", color="#800020")
-define Vadim = DynamicCharacter("vadim_name", color="#DA70D6")
-define Alena = Character("Сказочница", color="#DA70D6")
-define Ainur = Character("Пекарь", color="#DA70D6")
-define Mrak = DynamicCharacter("mrak_name", color="#DA70D6")
-define Alina = Character("Летописец", color="#DA70D6")
-define Vasya = DynamicCharacter("vasya_name", color="#DA70D6")
+define Vadim = DynamicCharacter("vadim_name", color="#DA70D6", image="vadim")
+define Alena = Character("Сказочница", color="#DA70D6", image="alena")
+define Ainur = Character("Пекарь", color="#DA70D6", image="ainur")
+define Mrak = DynamicCharacter("mrak_name", color="#DA70D6", image="mrak")
+define Alina = Character("Летописец", color="#DA70D6", image="alina")
+define Vasya = DynamicCharacter("vasya_name", color="#DA70D6", image="vasya")
 
 # Игра начинается здесь
 label start:
