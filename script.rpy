@@ -66,28 +66,28 @@ image 30 = "l/30.jpeg"
 
 # Игра начинается здесь
 label start:
-    call introduction from _call_introduction
-    call vadim_meeting from _call_vadim_meeting
-    call dairy1 from _call_dairy1
-    call alena_meeting from _call_alena_meeting
-    call dairy2 from _call_dairy2
-    call ainur_meeting from _call_ainur_meeting
-    call dairy3 from _call_dairy3
-    call phydisscuss from _call_phydisscuss
-    call mrak_meeting from _call_mrak_meeting
-    call dairy4 from _call_dairy4
-    call alina_meeting from _call_alina_meeting
-    call dairy5 from _call_dairy5
-    call club_meeting from _call_club_meeting
-    call dairy6 from _call_dairy6
-    call vasya_meeting from _call_vasya_meeting
-    call dairy7 from _call_dairy7
-    call invitation from _call_invitation
-    call diary8 from _call_diary8
-    call kfroom from _call_kfroom
+    call introduction
+    call vadim_meeting
+    call dairy1
+    call alena_meeting
+    call dairy2
+    call ainur_meeting
+    call dairy3
+    call phydisscuss
+    call mrak_meeting
+    call dairy4
+    call alina_meeting
+    call dairy5
+    call club_meeting
+    call dairy6
+    call vasya_meeting
+    call dairy7
+    call invitation
+    call diary8
+    call kfroom
     call door
-    call diary9 from _call_diary9
-    call the_end from _call_the_end
+    call diary9
+    call the_end
 
     return
 
@@ -799,7 +799,7 @@ label mrak_meeting:
         linear 1.0 zoom 1.0
         linear 5.0 ypos -100
         linear 2.5 rotate 0.0
-        linear 1.0 ypos 0
+        linear 1.0 ypos 150
 
     Mrak "..."
     Mrak "{i}Что значит имя? Роза пахнет розой — хоть розой назови её, хоть нет.{/i}"
@@ -1135,6 +1135,7 @@ label invitation:
     Me "Мы совершаем акты философствования, когда выбираем поступок, выделенный из всех остальных."
     Me "Это категория личностных поступков. И философия появляется там, где появляются личностные структуры..."
 
+    hide markoni
     nvl clear
 
     """
