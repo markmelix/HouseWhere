@@ -183,6 +183,8 @@ label introduction:
      Кажется, что и это место давно мне знакомо, но и моих товарищей, и это место я нашла совсем недавно. Разные голоса переплетались друг с другом, перепрыгивая через пламя, и мой голос прыгал вместе с ними...*
     """
 
+    stop music
+
     nvl clear
     scene 4
 
@@ -409,7 +411,6 @@ label dairy1:
     return
 
 label alena_meeting:
-    play music "storyteller.ogg" loop
     scene 2_1
 
     """
@@ -424,6 +425,8 @@ label alena_meeting:
 
     nvl clear
     scene 8
+
+    play music "storyteller.ogg" loop
 
     """
      Я заглянула внутрь и увидела помещение высотой в 5-6 метров. Слева и справа были огромные окна от пола до потолка, а впереди из книжных стеллажей вдали выглядывала винтовая лестница, ведущая на второй уровень библиотеки.
@@ -740,6 +743,7 @@ label phydisscuss:
     """
 
     nvl clear
+    return
 
 label mrak_meeting:
     scene 18
