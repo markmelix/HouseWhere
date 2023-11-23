@@ -65,27 +65,27 @@ image 30 = "l/30.jpeg"
 
 # Игра начинается здесь
 label start:
-    call introduction
-    call vadim_meeting
-    call dairy1
-    call alena_meeting
-    call dairy2
-    call ainur_meeting
-    call dairy3
-    call phydisscuss
-    call mrak_meeting
-    call dairy4
-    call alina_meeting
-    call dairy5
-    call club_meeting
-    call dairy6
-    call vasya_meeting
-    call dairy7
-    call invitation
-    call diary8
-    call kfroom
-    call diary9
-    call the_end
+    call introduction from _call_introduction
+    call vadim_meeting from _call_vadim_meeting
+    call dairy1 from _call_dairy1
+    call alena_meeting from _call_alena_meeting
+    call dairy2 from _call_dairy2
+    call ainur_meeting from _call_ainur_meeting
+    call dairy3 from _call_dairy3
+    call phydisscuss from _call_phydisscuss
+    call mrak_meeting from _call_mrak_meeting
+    call dairy4 from _call_dairy4
+    call alina_meeting from _call_alina_meeting
+    call dairy5 from _call_dairy5
+    call club_meeting from _call_club_meeting
+    call dairy6 from _call_dairy6
+    call vasya_meeting from _call_vasya_meeting
+    call dairy7 from _call_dairy7
+    call invitation from _call_invitation
+    call diary8 from _call_diary8
+    call kfroom from _call_kfroom
+    call diary9 from _call_diary9
+    call the_end from _call_the_end
 
     return
 
