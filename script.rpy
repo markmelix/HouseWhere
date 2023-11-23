@@ -14,7 +14,7 @@ image elisey = "elisey.png"
 image markoni = "markoni.png"
 
 define Me = Character("Я", color="#8A84E2")
-define Alexey = Character("Лёха", color="#a9e37c")
+define Alexey = Character("Лёха", color="#013220")
 define Vitaly = Character("Ёж", color="#011a04")
 define Vadim = DynamicCharacter("vadim_name", color="#ae0e52")
 define Alena = Character("Сказочница", color="#ff80ed")
@@ -29,34 +29,39 @@ define vadim_name = "Имбирь"
 define vasya_name = "Хмурый"
 define mrak_name = "Мрак"
 
-image 1 = "01.png"
-image 2 = "02.png"
-image 2_1 = "02.1.png"
-image 3 = "03.jpeg"
-image 4 = "04.jpeg"
-image 5 = "05.jpeg"
-image 6 = "06.jpeg"
-image 6_1 = "06.1.jpeg"
-image 7 = "07.jpeg"
-image 8 = "08.jpeg"
-image 9 = "09.png"
-image 10 = "10.jpeg"
-image 11 = "11.jpeg"
-image 13 = "13.jpeg"
-image 15 = "15.jpeg"
-image 17 = "17.jpeg"
-image 19 = "19.jpeg"
-image 20 = "20.png"
-image 20_1 = "20.1.png"
-image 21 = "21.jpeg"
-image 22 = "22.jpeg"
-image 23 = "23.png"
-image 24 = "24.png"
-image 25 = "25.png"
-image 25_1 = "25.1.png"
-image 27 = "27.jpeg"
-image 28 = "28.png"
-image 30 = "30.jpeg"
+image 1 = "l/01.png"
+image 2_1 = "l/02.1.png"
+image 2 = "l/02.png"
+image 3 = "l/03.jpeg"
+image 4 = "l/04.jpeg"
+image 5 = "l/05.jpeg"
+image 6_1 = "l/06.1.jpeg"
+image 6 = "l/06.jpeg"
+image 7 = "l/07.jpeg"
+image 8 = "l/08.jpeg"
+image 9 = "l/09.png"
+image 10 = "l/10.jpeg"
+image 11 = "l/11.jpeg"
+image 12 = "l/12.jpeg"
+image 13 = "l/13.jpeg"
+image 15 = "l/15.jpeg"
+image 17 = "l/17.jpeg"
+image 18 = "l/18.png"
+image 19 = "l/19.jpeg"
+image 20_1 = "l/20.1.png"
+image 20 = "l/20.png"
+image 21 = "l/21.jpeg"
+image 22 = "l/22.jpeg"
+image 23 = "l/23.png"
+image 24 = "l/24.png"
+image 25_1 = "l/25.1.jpeg"
+image 25 = "l/25.png"
+image 26_1 = "l/26.1.png"
+image 26_2 = "l/26.2.png"
+image 26 = "l/26.png"
+image 27 = "l/27.jpeg"
+image 28 = "l/28.png"
+image 30 = "l/30.jpeg"
 
 # Игра начинается здесь
 label start:
@@ -97,6 +102,9 @@ label introduction:
 
      На территории леса — отдельного мира, перед которым даже у современного человека, что не верит ни во что, просыпается внутри нечто мистическое, будоражащее сердце, пугающее, но, в то же время зовущее исследовать густую чащу — стоит Дом. Местные жители зовут его Белым замком.
 
+    """
+    nvl clear
+    """
      Он стар, по возрасту он ближе к лесу и озёрам, чем к домикам, раскиданным в округе. Он похож на отшельника, решившего уединиться в лесной чаще вдали от общества. Он не тянется вширь, как это делают другие человеческие постройки. Он осел на своём месте и не стремится хоть когда-то его покинуть.
 
      К нему жмутся растения, кустарники, деревья. Даже облака в небе иногда словно стремятся коснуться его крыши. Фасад может показаться мрачным, но, поверьте, есть те, кто не согласится с вами.
