@@ -52,7 +52,8 @@ define gui.muted_color = '#a366a3'
 define gui.hover_muted_color = '#c199c1'
 
 ## Цвета, используемые в тексте диалогов и выборов.
-define gui.text_color = '#404040'
+# define gui.text_color = '#404040'
+define gui.text_color = '#202020'
 define gui.interface_text_color = '#404040'
 
 
